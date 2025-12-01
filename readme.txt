@@ -1,3 +1,7 @@
+This is the code appendix for PAKDD 2025 Paper: 
+
+Li, Chaofan, Till Riedel, and Michael Beigl. "Isolating Latent Context Information Enhances Graph Structure Learning for Spatial Interpolation." Pacific-Asia Conference on Knowledge Discovery and Data Mining. Singapore: Springer Nature Singapore, 2025.
+
 1. First, download dataset and transform them to the 'Standard Format' with the codes in './Data_Preprocessing/', further instructions see readme.txt in the folders.
 	- As a result of this step, each dataset will become a set of narrow format .csv files stored in a Folder named 'Dataset_name/Dataset_Separation/'
 
@@ -44,4 +48,5 @@
 	- 2. Set Experiments configs in './GNN_INTP/configs_files/config_kfold_lspe.py'
 	- 3. Set use_config = "config_kfold_lspe" in './GNN_INTP/config_manager.py'
 	- 4. Run './GNN_INTP/01.wandb_start.py'
+
 
